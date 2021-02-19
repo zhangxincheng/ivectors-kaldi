@@ -1,0 +1,5 @@
+8k_1 ivectors_kaldi/ivector.ark:5
+mix_8k_1-8 ivectors_kaldi/ivector.ark:426
+mix_8k_1-8-noSil ivectors_kaldi/ivector.ark:853
+mix_8k_31-38 ivectors_kaldi/ivector.ark:1276
+mix_8k_en ivectors_kaldi/ivector.ark:1696

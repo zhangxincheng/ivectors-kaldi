@@ -1,0 +1,5 @@
+8k_1 /wmh/kaldi/egs/kaldi-ivectors-for-python/mfcc_hires/raw_mfcc_test.1.ark:5
+mix_8k_1-8 /wmh/kaldi/egs/kaldi-ivectors-for-python/mfcc_hires/raw_mfcc_test.1.ark:21597
+mix_8k_1-8-noSil /wmh/kaldi/egs/kaldi-ivectors-for-python/mfcc_hires/raw_mfcc_test.1.ark:35475
+mix_8k_31-38 /wmh/kaldi/egs/kaldi-ivectors-for-python/mfcc_hires/raw_mfcc_test.1.ark:41869
+mix_8k_en /wmh/kaldi/egs/kaldi-ivectors-for-python/mfcc_hires/raw_mfcc_test.1.ark:65700

@@ -1,0 +1,14 @@
+# compute-mfcc-feats --write-utt2dur=ark,t:exp/log/utt2dur.1 --verbose=2 --config=conf/mfcc_hires.conf scp,p:exp/log/wav_test.1.scp ark:- | copy-feats --write-num-frames=ark,t:exp/log/utt2num_frames.1 --compress=true ark:- ark,scp:/wmh/kaldi/egs/kaldi-ivectors-for-python/mfcc_hires/raw_mfcc_test.1.ark,/wmh/kaldi/egs/kaldi-ivectors-for-python/mfcc_hires/raw_mfcc_test.1.scp 
+# Started at Fri Feb 19 14:00:17 CST 2021
+#
+copy-feats --write-num-frames=ark,t:exp/log/utt2num_frames.1 --compress=true ark:- ark,scp:/wmh/kaldi/egs/kaldi-ivectors-for-python/mfcc_hires/raw_mfcc_test.1.ark,/wmh/kaldi/egs/kaldi-ivectors-for-python/mfcc_hires/raw_mfcc_test.1.scp 
+compute-mfcc-feats --write-utt2dur=ark,t:exp/log/utt2dur.1 --verbose=2 --config=conf/mfcc_hires.conf scp,p:exp/log/wav_test.1.scp ark:- 
+VLOG[2] (compute-mfcc-feats[5.5.872~1527-d136b]:main():compute-mfcc-feats.cc:182) Processed features for key 8k_1
+VLOG[2] (compute-mfcc-feats[5.5.872~1527-d136b]:main():compute-mfcc-feats.cc:182) Processed features for key mix_8k_1-8
+VLOG[2] (compute-mfcc-feats[5.5.872~1527-d136b]:main():compute-mfcc-feats.cc:182) Processed features for key mix_8k_1-8-noSil
+VLOG[2] (compute-mfcc-feats[5.5.872~1527-d136b]:main():compute-mfcc-feats.cc:182) Processed features for key mix_8k_31-38
+VLOG[2] (compute-mfcc-feats[5.5.872~1527-d136b]:main():compute-mfcc-feats.cc:182) Processed features for key mix_8k_en
+LOG (compute-mfcc-feats[5.5.872~1527-d136b]:main():compute-mfcc-feats.cc:185)  Done 5 out of 5 utterances.
+LOG (copy-feats[5.5.872~1527-d136b]:main():copy-feats.cc:143) Copied 5 feature matrices.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Feb 19 14:00:17 CST 2021, elapsed time 0 seconds
